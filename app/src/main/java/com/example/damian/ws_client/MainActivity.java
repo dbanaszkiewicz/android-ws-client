@@ -35,5 +35,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonPut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonGetPostByUserId.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DeleteActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

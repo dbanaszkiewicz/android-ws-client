@@ -20,7 +20,9 @@
             android:name=".PostActivity"
             android:label="@string/title_activity_post"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".GetActivity"></activity>
+        <activity android:name=".GetActivity" />
+        <activity android:name=".DeleteActivity" />
+        <activity android:name=".PutActivity"></activity>
     </application>
 
 </manifest>
