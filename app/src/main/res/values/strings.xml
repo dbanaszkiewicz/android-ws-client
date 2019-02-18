@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ws-client</string>
+    <string name="get">GET</string>
+    <string name="post">POST</string>
+    <string name="put">PUT</string>
+    <string name="delete">DELETE</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="enter_post_id">Post ID</string>
+</resources>
